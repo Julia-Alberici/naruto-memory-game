@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Jogo da Memória</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="title">
+        <h1>Bem vindo ao jogo da memória Naruto Shippuden!</h1>
+        <h2>Ache todos os pares para vencer.</h2>
+        <button class="btn-lg btn" id="play-again">Jogar novamente </button>
+    </header>
+
+    <main class="game-container">
+        <div class="card" data-card="kakashi">
+            <img src="assets/images/kakashi.png" alt="Frente da carta Kakashi" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="naruto">
+            <img src="assets/images/naruto.png" alt="Frente da carta Naruto" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="rocklee">
+            <img src="assets/images/rocklee.png" alt="Frente da carta Rock Lee" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="sakura">
+            <img src="assets/images/sakura.png" alt="Frente da carta Sakura" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="sasuke">
+            <img src="assets/images/sasuke.png" alt="Frente da carta Sasuke" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="shikamaru">
+            <img src="assets/images/shikamaru.png" alt="Frente da carta Shikamaru" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="kakashi">
+            <img src="assets/images/kakashi.png" alt="Frente da carta Kakashi" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="naruto">
+            <img src="assets/images/naruto.png" alt="Frente da carta Naruto" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="rocklee">
+            <img src="assets/images/rocklee.png" alt="Frente da carta Rock Lee" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="sakura">
+            <img src="assets/images/sakura.png" alt="Frente da carta Sakura" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="sasuke">
+            <img src="assets/images/sasuke.png" alt="Frente da carta Sasuke" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="shikamaru">
+            <img src="assets/images/shikamaru.png" alt="Frente da carta Shikamaru" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="neji">
+            <img src="assets/images/neji.png" alt="Frente da carta Neji" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="hinata">
+            <img src="assets/images/hinata.png" alt="Frente da carta Hinata" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="jiraya">
+            <img src="assets/images/jiraya.png" alt="Frente da carta Jiraya" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="neji">
+            <img src="assets/images/neji.png" alt="Frente da carta Neji" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="hinata">
+            <img src="assets/images/hinata.png" alt="Frente da carta Hinata" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+        <div class="card" data-card="jiraya">
+            <img src="assets/images/jiraya.png" alt="Frente da carta Jiraya" class="front-card">
+            <img src="assets/images/back.jpeg" alt="Verso da carta" class="back-card">
+        </div>
+    </main>
+    
+    <div id="overlay">
+        <div id="dialog">
+            <div id="dialogContent">
+                <h1>Parabéns! Você completou o jogo da memória Naruto Shippuden.</h1>
+            </div>
+            <div class="dialog-question">
+                <h2>Deseja jogar novamente?</h2>
+                <button class="btn" id="btn-play">Sim</button>
+                <button class="btn" id="btn-later">Depois</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
