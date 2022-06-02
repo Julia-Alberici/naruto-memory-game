@@ -1,6 +1,6 @@
-#Jogo da memória Naruto Shippuden
+# Jogo da memória Naruto Shippuden
 
-##Desenvolvido em Vanilla Javascript
+## Desenvolvido em Vanilla Javascript
 
 O jogo consiste em achar todos os pares de cartas, uma vez que você acha duas cartas iguais, elas recebem a classe disabled e são retirados os listeners, então não podem ser clicados novamente.
 
